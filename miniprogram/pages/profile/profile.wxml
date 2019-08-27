@@ -1,0 +1,6 @@
+<view class='profile'>
+  <open-data class='profile-image' type='userAvatarUrl'></open-data>
+  <open-data class='profile-name' type='userNickName'></open-data>
+</view>
+
+<button open-type='getUserInfo' bindgetuserinfo="onGotUserInfo">获取用户信息</button>
